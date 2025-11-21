@@ -1,0 +1,10 @@
+﻿fastapi
+uvicorn[standard]
+pdfplumber
+pandas
+openpyxl
+spacy
+python-dotenv
+tqdm
+regex
+pytest
