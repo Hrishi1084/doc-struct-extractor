@@ -1,4 +1,4 @@
-# DOCUMENT STRUCTURER - KEY-VALUE-COMMENT EXTRACTOR
+# DOCUMENT STRUCTURER : KEY-VALUE-COMMENT EXTRACTOR
 
 A Streamlit-powered application that converts unstructured PDF text into a clean, structured **Key–Value–Comments** table using a large language model (LLM). The app automatically loads a preferred model (Llama 3.1 8B Instruct) with graceful fallback options, processes your PDF, extracts structured information, and provides a downloadable Excel file.
 
@@ -35,7 +35,7 @@ A Streamlit-powered application that converts unstructured PDF text into a clean
 Clone your repository and install dependencies:
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Hrishi1084/doc-struct-extractor
 cd <project-folder>
 pip install -r requirements.txt
 ```
