@@ -1,0 +1,42 @@
+﻿,Key,Value,Comments
+0,First Name,Vijay,
+1,Last Name,Kumar,
+2,Date of Birth,15-Mar-1989,
+3,Birth City,Jaipur,
+4,Birth State,Rajasthan,
+5,Age,35,
+6,Nationality,Indian,
+7,Blood Group,O+,
+8,Joining Date 1,01-Jul-2012,Junior Developer
+9,Salary 1,3500000,INR
+10,Organization 1,Resse Analytics,Senior Data Engineer
+11,Joining Date 2,15-Jun-2021,
+12,Salary 2,28000000,INR
+13,Organization 2,Resse Analytics,
+14,Joining Date 3,01-Feb-2018,Data Analyst
+15,Organization 3,LakeCorp Solutions,
+16,Salary 3,28000000,INR
+17,Education 1,"St. Xavier's School, Jaipur",12th standard
+18,Score 1,92.5%,
+19,Education 2,IIT Delhi,B.Tech in Computer Science
+20,CGPA 1,8.7,
+21,Education 3,IIT Bombay,M.Tech in Data Science
+22,CGPA 2,9.2,
+23,Certificate 1,AWS Solutions Architect,920/1000
+24,Score 2,920,out of 1000
+25,Certificate 2,Azure Data Engineer,875/1000
+26,Score 3,875,out of 1000
+27,Certificate 3,Project Management Professional,Above Target
+28,Score 4,,
+29,Certificate 4,SAFe Agilist,98%
+30,Score 5,98,%
+31,Skill 1,SQL,10/10
+32,Skill Level 1,10,
+33,Skill 2,Python,9/10
+34,Skill Level 2,9,
+35,Skill 3,Machine Learning,8/10
+36,Skill Level 3,8,
+37,Skill 4,Cloud Platform,9/10
+38,Skill Level 4,9,
+39,Skill 5,Data Visualization,8/10
+40,Skill Level 5,8,
