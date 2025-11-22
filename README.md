@@ -36,7 +36,7 @@ Clone your repository and install dependencies:
 
 ```bash
 git clone https://github.com/Hrishi1084/doc-struct-extractor
-cd <project-folder>
+cd doc-struct-extractor 
 pip install -r requirements.txt
 ```
 Recommended Python: `3.10.x.` Ensure you have sufficient disk space for model downloads.
