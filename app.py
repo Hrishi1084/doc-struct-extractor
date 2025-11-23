@@ -17,7 +17,7 @@ PREFERRED = "meta-llama/Llama-3.1-8B-Instruct"
 FALLBACKS = ["HuggingFaceH4/zephyr-7b-beta", "gpt2"]
 OFFLOAD_FOLDER = "./offload"
 MAX_INPUT_TOKENS = 4096
-MAX_NEW_TOKENS = 1800
+MAX_NEW_TOKENS = 3000
 os.makedirs(OFFLOAD_FOLDER, exist_ok=True)
 
 PROMPT_TEMPLATE = """You are a precise extractor. Input is a single block of text describing one person. Your job: extract every row for a table with columns exactly: "Key", "Value", "Comments".
@@ -272,7 +272,7 @@ def main():
                 towrite = io.BytesIO()
                 df.to_excel(towrite, index=False, sheet_name="Key & Value")
                 towrite.seek(0)
-                st.download_button("Download Excel", data=towrite, file_name="extracted_table.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
+                st.download_button("Download Excel", data=towrite, file_name="output.xlsx", mime="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet")
 
         except Exception as e:
             st.error(f"Processing failed: {type(e).__name__}: {e}")
